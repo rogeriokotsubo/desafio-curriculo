@@ -1,0 +1,272 @@
+
+/* About page */
+#container-about{
+  width: 100vw;
+  height: 60vh;
+  padding-left: 15vw;
+  background-color: rgba(85,105,220, 0.1);
+}
+#txt-about{
+  font-family: Playfair Display, sans-serif; 
+  color: rgb(85,105,220);
+  padding-top: 10vh;;
+  font-style: italic;
+  font-weight: 600;
+  font-size: 2vw;
+}
+#txt-history{
+  font-family: 'Futura lt';
+  color: rgb(85,105,220);
+  font-size: 1vw;
+  padding-top: 1vh;
+  letter-spacing: 0.5vw;
+}
+#p-hist{
+  font-family: 'Futura lt';
+  color: #1c2349;
+  font-size: 1.4vw;
+  padding-top: 5vh;
+  width: 60vw;
+  line-height: 6vh;
+}
+
+/* Grad page */
+#container-grad{
+  width: 100vw;
+  height: 80vh;
+  display: flex;
+  background-color: #ffffff;
+}
+#ctn-grad1{
+  width: 50vw;
+  padding-left: 15vw;
+}
+#txt-grad1{
+  font-family: Playfair Display, sans-serif; 
+  color: #5569dc;
+  padding-top: 10vh;;
+  font-style: italic;
+  font-weight: 600;
+  font-size: 2vw;
+}
+#txt-periodo{
+  font-family: 'Futura lt';
+  color: #1c2349;
+  font-size: 1.4vw;
+  padding: 8vh 0 2vh 0;
+  letter-spacing: 0.1vw;
+}
+.p-grad{
+  font-family: 'Futura lt';
+  color: #1c2349;
+  font-size: 1.4vw;
+  line-height: 5vh;
+}
+#ctn-expert{
+  width: 50vw; 
+}
+#txt-expert{
+  font-family: Playfair Display, sans-serif; 
+  color: #5569dc;
+  padding-top: 10vh;;
+  font-style: italic;
+  font-weight: 600;
+  font-size: 2vw;
+}
+
+/* Habil page */
+#container-habil{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(85,105,220, 0.1);
+}
+#ctn-habil{
+  width: 100vw;
+  padding-left: 15vw;
+}
+#txt-habil{
+  font-family: Playfair Display, sans-serif; 
+  color: #5569dc;
+  padding-top: 10vh;;
+  font-style: italic;
+  font-weight: 600;
+  font-size: 2vw;
+}
+
+#container-barras{
+  width: 100vw; 
+  padding: 7vh 0 0 15vw;
+}
+
+.ctn-barras{
+  width: 100vw;
+  display: flex;
+  align-items: center;
+}
+.ctn-txt-barra{
+  width: 20vw;
+}
+.txt-barra{
+  font-family: 'Futura lt';
+  color: #1c2349;
+  font-size: 1.3vw;
+  line-height: 7vh;  
+}
+.barra{
+  background-color: #cad4e8;  
+  width: 50vw;
+  height: 3px;
+}
+#barra-analise{
+  background-color: #5569dc;
+  height: 5px;
+  position: absolute;
+  left: 35vw;
+  width: 45vw;
+}
+#barra-html{
+  background-color: #5569dc;
+  height: 5px;
+  position: absolute;
+  left: 35vw;
+  width: 30vw;
+}
+#barra-sql{
+  background-color: #5569dc;
+  height: 5px;
+  position: absolute;
+  left: 35vw;
+  width: 40vw;
+}
+#barra-vfp{
+  background-color: #5569dc;
+  height: 5px;
+  position: absolute;
+  left: 35vw;
+  width: 45vw;
+}
+#barra-campo{
+  background-color: #5569dc;
+  height: 5px;
+  position: absolute;
+  left: 35vw;
+  width: 40vw;
+}
+.separador{
+  background-color: #1c234950;  
+  width: 5vw;
+  height: 1px;
+  margin: 4vh 0 4vh 0;
+}
+#barra-pt{
+  background-color: #5569dc;
+  height: 5px;
+  position: absolute;
+  left: 35vw;
+  width: 50vw;
+}
+#barra-en{
+  background-color: #5569dc;
+  height: 5px;
+  position: absolute;
+  left: 35vw;
+  width: 40vw;
+}
+#barra-es{
+  background-color: #5569dc;
+  height: 5px;
+  position: absolute;
+  left: 35vw;
+  width: 30vw;
+}
+
+#container-premios{
+  width: 100vw;
+  height: 60vh;
+  display: flex;
+  background-color: #cad4e8;
+}
+#txt-premios{
+  font-family: Playfair Display, sans-serif; 
+  color: #5569dc;
+  padding-top: 10vh;;
+  font-style: italic;
+  font-weight: 600;
+  font-size: 2vw;
+}
+
+#container-contato{
+  width: 100vw;
+  height: 40vh;
+  color: #5569dc;
+  display: flex;
+  background-color: rgba(85,105,220, 0.1);
+}
+#ctn-midias{
+  width: 50vw;
+  align-self: left;
+}
+#txt-ouvir{
+  font-family: Playfair Display, sans-serif; 
+  color: #1c2349;
+  padding-top: 10vh;
+  font-style: italic;
+  font-weight: 600;
+  font-size: 2vw;
+  padding-left: 15vw;
+}
+#social-media-icons-p{
+  display: flex;
+  padding: 12vh 0 8vh 15vw;
+  align-items: center;
+  margin: 0;
+  gap: 2vw;
+} 
+.img-med{
+  width: 40px;
+  height: 40px;
+}
+
+#ctn-contatos{
+  width: 20vw;
+  padding-top: 10vh;
+  display: flex;
+  flex-direction: column; 
+}
+#txt-email{
+  font-family: 'Futura lt';
+  color: #1c2349;
+  font-size: 1vw;
+  font-weight: 300;
+}
+#txt-fone{
+  font-family: 'Futura lt';
+  padding: 0.3vh 0 10vh 0;
+  color: #1c2349;
+  font-size: 1.2vw;
+  font-weight: 300;
+}
+#divlink1 {
+  font-family: 'Futura lt';
+  background-color: #5569dc;
+  width: 10vw;
+  height: 5vh;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1vw;
+}
+.link-top{
+  width: 30vw;
+  padding-top: 26vh;
+}
+#link-top{
+  width: 50px;
+  height: 50px;
+  transform: rotate(180deg);
+  fill:#5569dc;
+}
+
